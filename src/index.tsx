@@ -645,7 +645,8 @@ xmlns="http://www.w3.org/2000/svg"
 
           const initCt = () => (
  {
- 'all': { 
+ 
+        'all': { 
 'colors': { 
 'primary': "#fff", 'secondary': "#0064fe" } 
 , 
@@ -668,6 +669,11 @@ xmlns="http://www.w3.org/2000/svg"
   messagingSenderId: "750912250366",
   appId: "1:750912250366:web:4629eac789a718a74220af"
 } } 
+, 'data': { 'menu': [
+  { id: '1', name: 'X-Burger', price: 18.5 },
+  { id: '2', name: 'Pizza Margherita', price: 29.9 },
+  { id: '3', name: 'Suco Natural', price: 6.5 },
+] } 
  
 } 
  );
